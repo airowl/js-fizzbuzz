@@ -36,6 +36,7 @@ btn.addEventListener('click', function(){
             // ? ho creato l'elemento tag LI per ogni numbero multipli di 3 e 5
             const newLi = document.createElement('li');
             newLi.innerText = `${i} ${number}`;
+            newLi.classList.add('my-box');
 
             document.getElementById('my-list').append(newLi);
             
@@ -50,6 +51,7 @@ btn.addEventListener('click', function(){
             // ? ho creato l'elemento tag LI per ogni numbero multipli di 3 
             const newLi = document.createElement('li');
             newLi.innerText = `${i} ${number}`;
+            newLi.classList.add('my-box');
 
             document.getElementById('my-list').append(newLi);
 
@@ -63,6 +65,7 @@ btn.addEventListener('click', function(){
             // ? ho creato l'elemento tag LI per ogni numbero multipli di 5
             const newLi = document.createElement('li');
             newLi.innerText = `${i} ${number}`;
+            newLi.classList.add('my-box');
 
             document.getElementById('my-list').append(newLi);
 
@@ -73,6 +76,7 @@ btn.addEventListener('click', function(){
             // ? ho creato l'elemento tag LI per ogni numero
             const newLi = document.createElement('li');
             newLi.innerText = number;
+            newLi.classList.add('my-box', );
 
             document.getElementById('my-list').append(newLi);
 
