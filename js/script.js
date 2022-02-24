@@ -25,7 +25,7 @@ btn.addEventListener('click', function(){
         // console.log(i);
 
         // * condizione per verificare se i è multiplo di 3 e se i è multiplo di 5
-        if ( (i % 3 == 0) && (i % 5 == 0) ) { 
+        if ( (i % 3 == 0) && (i % 5 == 0) ) { // ! se i diviso 3 dà resto 0 è multiplo di 3 e se i diviso 5 dà resto 0 è multiplo di 5
 
             console.log(i + ' FizzBuzz' + ' questo è un multiplo di 3 e 5!');
 
@@ -40,7 +40,7 @@ btn.addEventListener('click', function(){
 
             console.log(i + ' Fizz' + ' questo è un multiplo di 3');
 
-        } else if (i % 5 == 0) {
+        } else if (i % 5 == 0) { // ! se i diviso 5 dà resto 0 è multiplo di 5
 
             console.log(i + ' Buzz' + ' questo è un multiplo di 5');
 
