@@ -68,12 +68,6 @@ btn.addEventListener('click', function(){
 
         }
 
-        // if ( (i % 3 == 0) && (i % 5 == 0) ) {
-
-        //     console.log(i + ' FizzBuzz' + ' questo è un multiplo di 3 e 5!');
-    
-        // } 
-
     }
 });
 
